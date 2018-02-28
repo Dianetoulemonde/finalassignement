@@ -1,0 +1,26 @@
+.custom-file-control:lang(en)::before {
+    content: "Browse";
+}
+
+.custom-file-control:lang(en)::after {
+	content: "Choose file...";
+}
+
+#confirmation-message {
+	display: none;
+}
+
+.navbar-brand {
+	font-weight: 800;
+	color: rgb(230, 16, 16);
+	font-size: 32px;
+}
+
+#navigation-bar {
+	margin-top: 100px;
+	display: block;
+}
+
+.btn {
+	width: 125px;
+}
