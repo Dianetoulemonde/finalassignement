@@ -33,63 +33,72 @@
                     </div>
                 </nav>
                 <!-- End of Navigation bar -->
-                <div id="navigation-bar" class="row">
-                    <!-- Form -->
-                    <form class="col-md-8 offset-md-2" enctype="multipart/form-data">
-                       
-                        <!-- Email -->
-                        <div class="form-group row">
-                              <label for="name" class="col-4 col-form-label">Name</label>
-                              <div class="col-8">
-                                <input id= "name" class="form-control" type="text" name="name" value="">
-                                  <div class="form-control-feedback">
-                                      <small class="form-control-feedback">
-                                      </small>
-                                  </div>
-                              </div>
-                        </div>
-        
-                        <!-- First name -->
-                        <div class="form-group row">
-                              <label for="ingredients" class="col-4 col-form-label">Ingredients</label>
-                              <div class="col-8">
-                                <input id= "ingredients" class="form-control" type="text" name="ingredients" value="">
-                                <div class="form-control-feedback">
-                                      <small class="form-control-feedback">
-                                      </small>
-                                  </div>
-                              </div>
-                        </div>
-        
-                        <!-- Submit & Reset button -->
-        <div class="row justify-content-center">
-                <div class="col-3">
-                    <button id="searchButton" class="btn btn-primary">
-                        Submit
-                    </button>
-                </div>
-                <div class="col-3">
-                    <button id="reset-button" class="btn btn-secondary">
-                        Reset
-                    </button>
-                </div>
-                </div>
-                </form>
-            
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="https://cdn.pixabay.com/photo/2017/07/18/06/21/mojito-2514908_960_720.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Mojito</h5>
-                    <p class="card-text">To get this delicious cocktail, you need....</p>
-                    <a href="#" class="btn btn-primary" style="width:150px ">Get the Recipe</a>
-                </div>
-            </div>
                 
+                <div class ="image">
+                        <img src="https://images.pexels.com/photos/613037/pexels-photo-613037.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb"/>
+                       
+                        <div id="navigation-bar" class="row">
+                                
+                            <!-- Form -->
+                            <div class= "searchbox">
+                            <form id="contentsearchbox"  class="col-md-8 offset-md-2" enctype="multipart/form-data">
+                                   
+                                <!-- Name -->
+                                 <div class="form-group row">
+                                    <label for="name" class="col-4 col-form-label">Name</label>
+                                        <div class="col-8">
+                                        <input id= "name" class="form-control" type="text" name="name" value="">
+                                        <div class="form-control-feedback">
+                                            <small class="form-control-feedback">
+                                            </small>
+                                        </div>
+                                        </div>
+                                    </div>
+                    
+                                    <!-- Ingredients -->
+                                    <div class="form-group row">
+                                        <label for="ingredients" class="col-4 col-form-label">Ingredients</label>
+                                        <div class="col-8">
+                                        <input id= "ingredients" class="form-control" type="text" name="ingredients" value="">
+                                            <div class="form-control-feedback">
+                                                <small class="form-control-feedback">
+                                                </small>
+                                            </div>
+                                        </div>
+                                    </div>
+                    
+                                    <!-- Submit & Reset button -->
+                                    <div class="row justify-content-center">
+                                        <div class="col-3">
+                                            <button id="submit-button" class="btn btn-primary">
+                                            Submit
+                                            </button>
+                                    </div>
+                                    <div class="col-3">
+                                            <button id="reset-button" class="btn btn-secondary">
+                                            Reset
+                                            </button>
+                                    </div>
+                                    </div>
+                            </form>
+                            </div>      
+                     </div>
+                     
+     
+                     <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="https://cdn.pixabay.com/photo/2017/07/18/06/21/mojito-2514908_960_720.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Mojito</h5>
+                              <p class="card-text">To create this delicious cocktail, you need...</p>
+                              <a href="#" class="btn btn-primary">Get recipe</a>
+                            </div>
+                    </div>
+
                     <!-- Confirmation message -->
                     <div class="row justify-content-center" id="confirmation-message">
                         <div class="jumbotron col-md-8 offset-md-2">
-                        <p class="text-center">Registration was successful!</p>
-                        </div>
+                        <p class="text-center">We found your match</p>
+                    </div>
        
                 <!-- Import JavaScript for Tether -->
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
@@ -99,9 +108,7 @@
         
                 <!-- Import custom JavaScript -->
 
-           
-
-    <script src=cocktailapi.js></script>
+            <script src=cocktailapi.js></script>
 
     </body>
 
