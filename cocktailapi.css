@@ -1,32 +1,86 @@
 .custom-file-control:lang(en)::before {
     content: "Browse";
 }
-
 .custom-file-control:lang(en)::after {
-	content: "Choose file...";
+    content: "Choose file...";
 }
-
 #confirmation-message {
-	display: none;
+    display: none;
 }
-
 .navbar-brand {
-	font-weight: 800;
-	color: #fff;
-	font-size: 400%;
+    font-weight: 800;
+    color: white;
+    font-size: 400%;
+    position: absolute;
+    top: 10%;
 }
-
 #navigation-bar {
-	margin-top: 100px;
-	display: block;
+    margin-top: 100px;
 }
-
-.btn {
-	width: 300px;
-}
-
+/* .btn {
+    width: 300px;
+} */
 #navigation-bar{
-	position: fixed;
+    position: absolute;
     left: 30%;
-	top: 30%; 
+    top: 7%; 
 }
+.col-3{
+    display: block;
+    position: absolute;
+}
+/*search bar sizes*/
+#ingredients{
+    width: 300px;
+}
+#name{
+    width: 300px;
+}
+body{
+    background-image: url('https://images.pexels.com/photos/613037/pexels-photo-613037.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+.card{
+    /* margin:auto;
+    width: 100%;
+    left: 16.5%; */
+    position: fixed;
+    /* margin-top: 50%; */
+    margin-right: 3.4%;
+    display: inline-block;
+}
+#card1{
+    position: absolute; 
+    top: 60%;
+    left: 13%;
+}
+#card2{
+    position: absolute; 
+    left: 39.94%;
+    top:60%;
+}
+#card3{
+    position: absolute;
+    left: 66.88%;
+    top: 60%;
+}
+.btn-secondary{
+    color: white;
+    background-color: rgb(185, 105, 105); 
+    border-color:  rgb(185, 105, 105);
+}
+.btn-primary{
+    color: white;
+    background-color: rgb(185, 105, 105); 
+    border-color:  rgb(185, 105, 105);
+}
+#image3{
+    height: 190.66;
+}
+
+
+Ajouter un commentaireRéduire 
+Zone de message
+
+Envoyer un message à Onees Silié, Alice Fuller, Adam
